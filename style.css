@@ -1,0 +1,31 @@
+.primeira_class {
+    width: 300px; 
+    background: rgb(85, 85, 85);
+    font-size: 18px;
+    margin-top: 10px; 
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+.segunda_class{
+    width: 300px; 
+    background: rgb(115, 215, 255);
+    font-size: 18px;
+    margin-top: 10px; 
+    margin-right: 100px;
+    margin-left: 100px;
+  
+}
+.terceira_class{
+    width: 300px; 
+    background: rgb(189, 80, 80);
+    font-size: 18px;
+    margin-top: 10px; 
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
