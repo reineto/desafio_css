@@ -1,26 +1,14 @@
-const subtrai = function (a, b) {
-    return a - b;
+let a = 0;
+let b = -11;
+
+function sub (a,b){
+  return a-b;
 }
-let resultado = subtrai(1, 1);
-console.log(resultado);
-
-const testaZero = (a) => a ? "não é zero" : "é zero";
-
-let resultado2 = testaZero(0);
-console.log(resultado2);
-
-function testaSinal(a, b) {
-    const func = function (a, b) {
-        return subtrai(a, b);
-    }
-    let resultado3 = func(a, b);
-
-    if (testaZero(resultado3) === "é zero") {
-        console.log("é zero")
-    } else if (a < 0 && b < 0 || a > 0 && b > 0) {
-        console.log("Mesmo sinal")
-    } else {
-        console.log("Sinais diferentes")
-    }
+if ( a == 0){
+  console.log("é zero");
+} else if (a < 0 && b < 0 || a > 0 && b > 0) {
+  console.log("Mesmo sinal")
+} else {
+  console.log("Sinais diferentes")
 }
-testaSinal(2, 4)
+  /*Não entendi muito bem como deveria ser feito. Então fiz da forma que achei "mais correta" julgando pelo slide.*/
